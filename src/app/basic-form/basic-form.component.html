@@ -1,1 +1,26 @@
-<p>basic-form works!</p>
+<div class="container">
+<h3>Basic Form</h3>
+<form>
+<div class="form-group w-50">   
+<label for="name">Name:</label>
+<input type="text" name="name" id="name" class="form-control" >
+</div>
+<div class="form-group w-50">
+<label for="email">Email:</label>
+<input type="email" name="email" id="email" class="form-control">
+</div>
+<div class="form-group w-50">
+<label for="age">Age:</label>
+<input type="number" name="age" id="age" class="form-control">
+</div>
+<div class="form-group w-50">
+<label for="gender">Gender</label>
+<select name="gender" id="gender" class="form-control">
+    <option *ngFor="let g of genders" [value]="g">{{ g }}</option>
+</select>
+</div>
+<div class="form-group w-50">
+<button type="submit" class="btn btn-primary">Submit</button>
+</div>
+</form>
+</div>

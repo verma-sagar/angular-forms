@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./basic-form.component.css']
 })
 export class BasicFormComponent implements OnInit {
+  
+  genders:string[];
 
   constructor() { }
 
   ngOnInit(): void {
+    this.genders=['Male','Female','Transgender'];
   }
 
 }

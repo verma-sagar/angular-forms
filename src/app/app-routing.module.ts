@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-
 import { BasicFormComponent } from './basic-form/basic-form.component';
 import { ReactiveDynamicFormComponent } from './reactive-dynamic-form/reactive-dynamic-form.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
